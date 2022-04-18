@@ -51,6 +51,10 @@ Do not hesitate to contribute to the controllers by adapting or adding features 
 
 Don't forget to drop a 🌟 on GitHub to support the project.
 
+## 📢 Mentions
+
+Inspired by [Matt Swanson](https://twitter.com/_swanson).
+
 ## 📝 License
 
 This project is released under the [MIT](https://opensource.org/licenses/MIT) license.
