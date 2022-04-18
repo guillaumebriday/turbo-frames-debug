@@ -6,7 +6,7 @@
 
 Small package to help you debug your turbo-frames.
 
-![](https://raw.githubusercontent.com/guillaumebriday/turbo-frames-debug/main/screenshot.png)
+![](https://raw.githubusercontent.com/guillaumebriday/turbo-frames-debug/main/screenshot.png?token=GHSAT0AAAAAABHKFFWSDBSE23YPHPSITXREYS5Y4VA)
 
 ## 📚 Installation
 
