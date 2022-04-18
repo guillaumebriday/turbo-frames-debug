@@ -1,6 +1,6 @@
 {
   "name": "turbo-frames-debug",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Small package to help you debug your turbo-frames.",
   "keywords": [
     "hotwire",
