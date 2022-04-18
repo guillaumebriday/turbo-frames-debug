@@ -1,0 +1,32 @@
+{
+  "name": "turbo-frames-debug",
+  "version": "0.0.0",
+  "description": "Small package to help you debug your turbo-frames.",
+  "keywords": [
+    "hotwire",
+    "hotwired",
+    "turbo",
+    "turbo-frame",
+    "turbo-stream"
+  ],
+  "private": false,
+  "main": "dist/turbo-frames-debug.css",
+  "repository": "git@github.com:guillaumebriday/turbo-frames-debug.git",
+  "bugs": {
+    "url": "https://github.com/guillaumebriday/turbo-frames-debug/issues"
+  },
+  "author": "Guillaume Briday <guillaumebriday@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss index.css --output dist/turbo-frames-debug.css",
+    "version": "yarn build",
+    "np": "np --no-2fa"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.7",
+    "np": "^7.6.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-nested": "^5.0.6"
+  }
+}

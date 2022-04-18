@@ -1,0 +1,29 @@
+:root {
+  --turbo-frame-debug-color: #3B82F6;
+  --turbo-frame-debug-z-index: 9999;
+  --turbo-frame-debug-font-size: 0.75rem;
+  --turbo-frame-debug-border-radius: 0.25rem;
+}
+
+.debug-turbo {
+  turbo-frame {
+    border: 1px var(--turbo-frame-debug-color) solid;
+    display: block;
+    border-radius: var(--turbo-frame-debug-border-radius);
+
+    &::before {
+      content: "Frame: #" attr(id);
+      display: inline-block;
+      position: relative;
+      top: -1rem;
+      right: -0.5rem;
+      color: var(--turbo-frame-debug-color);
+      font-size: var(--turbo-frame-debug-font-size);
+      z-index: var(--turbo-frame-debug-z-index);
+      background-color: #fff;
+      padding: 0.25rem;
+      border: 1px var(--turbo-frame-debug-color) solid;
+      border-radius: var(--turbo-frame-debug-border-radius);
+    }
+  }
+}
