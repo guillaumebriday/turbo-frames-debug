@@ -45,6 +45,14 @@ You can change the style of debugger by overriding some CSS variables.
 | `--turbo-frame-debug-font-size`     | `0.75rem` | Font size of the debugger.     |
 | `--turbo-frame-debug-border-radius` | `0.25rem` | Border radius of the debugger. |
 
+For instance:
+
+```css
+:root {
+  --turbo-frame-debug-color: #22C55E;
+}
+```
+
 ## 👷 Contributing
 
 Do not hesitate to contribute to the controllers by adapting or adding features ! Bug reports or pull requests are welcome.
