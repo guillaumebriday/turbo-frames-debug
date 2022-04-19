@@ -1,6 +1,7 @@
 # Turbo Frames Debug
 
 [![](https://img.shields.io/npm/dt/turbo-frames-debug.svg)](https://www.npmjs.com/package/turbo-frames-debug)
+[![](https://img.shields.io/bundlephobia/minzip/turbo-frames-debug.svg)](https://www.npmjs.com/package/turbo-frames-debug)
 [![](https://img.shields.io/npm/v/turbo-frames-debug.svg)](https://www.npmjs.com/package/turbo-frames-debug)
 [![](https://img.shields.io/github/license/guillaumebriday/turbo-frames-debug.svg)](https://github.com/guillaumebriday/turbo-frames-debug)
 
